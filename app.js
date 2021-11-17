@@ -90,7 +90,7 @@ function create_cards(){
 }
 
 const mostrarCarito = () =>{
-    main.innerHTML='';
+    cart.innerHTML='';
     const lista = [...new Set(cart_food)];
     lista.forEach(item => {
         const todos_productos = products.filter(productos => {
